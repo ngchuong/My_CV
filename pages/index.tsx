@@ -82,22 +82,6 @@ const Home: NextPage = () => {
     },
     {
       id: 4,
-      time: "2022/04-2022/07",
-      position: "Developer",
-      company: "Outside job",
-      tasks: ["Tham gia phát triển UI, API nền tảng Becomtik"],
-      skills: [
-        "Javascript",
-        "Typescript",
-        "Nextjs",
-        "Redux-thunk",
-        "Reduxjs/toolkit",
-        "Scss",
-        "Prisma",
-        "PostgreSQL",
-      ],
-    },
-    {
       time: "2019/10-2020/10",
       position: "Fresher",
       company: "Toshiba software development VietNam",
