@@ -4,6 +4,10 @@
   height: 100%;
 }
 
+.wrapper {
+  margin: 0 250px;
+}
+
 /* head */
 .header {
   background-color: rgb(48, 56, 70);
@@ -48,31 +52,53 @@
     .body-content-field {
       margin-bottom: 20px;
       .title {
-        font-size: 20px;
+        font-size: 16px;
+        font-weight: 700;
         font-weight: bold;
 
-        padding-bottom: 5px;
+        padding-bottom: 2px;
 
         margin-bottom: 5px;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #333;
+      }
+
+      .content-career-goals {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+
+        .goals {
+          padding: 5px 0;
+        }
       }
 
       .content {
         display: flex;
+        margin: 10px 0;
+
+        padding-bottom: 10px;
+
         .time {
-          margin-right: 10px;
+          margin-right: 20px;
           font-style: italic;
+          font-size: 14px;
         }
         .info {
-          .position {
-            font-size: 15px;
-            font-weight: 600;
-            color: lightcoral;
-          }
           .company {
-            font-size: 15px;
+            font-size: 14px;
+            font-weight: 700;
+          }
+          .position {
+            font-size: 14px;
             font-weight: 600;
-            // color: dar;
+          }
+
+          .task {
+            font-size: 14px;
+          }
+
+          .tech {
+            font-size: 14px;
           }
         }
       }
@@ -85,12 +111,13 @@
     margin-left: 10px;
 
     .person-header {
-      font-size: 20px;
+      font-size: 16px;
       font-weight: bold;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
+      padding-bottom: 2px;
+      border-bottom: 1px solid #333;
     }
     .person-field {
-      // border-bottom: 1px solid #ccc;
       margin-bottom: 10px;
       .label {
         font-size: 14px;
@@ -102,6 +129,31 @@
         font-size: 15px;
         font-weight: 600;
         color: "#424242";
+      }
+    }
+
+    //
+    .title-skills {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 20px 0 10px 0;
+
+      padding-bottom: 2px;
+      border-bottom: 1px solid #333;
+    }
+
+    .skills {
+      .skill {
+        margin-bottom: 10px;
+        font-size: 14px;
+
+        .category {
+          font-weight: 500;
+        }
+
+        .detail {
+          padding-left: 5px;
+        }
       }
     }
   }
